@@ -1,0 +1,19 @@
+SgmCatastroDuran:
+    rutaImages: D:/servers_files/sgm_duran/images/
+    urlWebSgmCatastro: http://127.0.0.1:8080/
+
+spring:
+    application:
+        name: DURAN-CATASTRO-SERVICES
+    datasource:
+        url: jdbc:postgresql://192.168.100.3:5432/origami_gt
+        username: sisapp
+        password: sisapp98
+        platform: postgres
+        hikari:
+            maximum-pool-size: 5
+            minimum-idle: 5
+            pool-name: DuranCatastroWs
+            max-lifetime: 30000
+
+
